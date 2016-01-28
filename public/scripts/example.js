@@ -1,8 +1,6 @@
-
-var data = [
-  {id: 1, author: "Pete Hunt", text: "This is one comment"},
-  {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
-];
+var React = require("react");
+var ReactDOM = require("react-dom");
+require("../scss/index.scss");
 var Comment = React.createClass({
   render: function() {
     return (
